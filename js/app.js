@@ -21,4 +21,5 @@ progressBar.style.width = (usedStorage/maxStorage*100).toString() + '%'
 
 
 
-console.log(maxStorage, usedStorage)
+console.log(maxStorage, usedStorage, freeStorage);
+console.log(`Percentage used: ${(usedStorage/maxStorage*100)}%`);
